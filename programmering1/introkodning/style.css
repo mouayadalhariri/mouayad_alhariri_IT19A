@@ -6,9 +6,8 @@ body {
 
 #Document {
         
-    height: 100px;
-    width: 500px;
-    
+    height: 200px;
+    width: 400px;
 	margin: 30px;
 	margin: 50px auto;
 
@@ -16,6 +15,14 @@ body {
 	font-size: 15px;
 	font-family: italic;
 
+}
+
+#table {
+    height: 100px;
+    width: 300px;
+	margin: 30px;
+    margin: 50px auto;
+    
 }
 
 #ol {
