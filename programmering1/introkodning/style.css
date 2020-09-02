@@ -6,10 +6,9 @@ body {
 
 #Document {
         
-    height: 350px;
+    height: 100px;
     width: 500px;
     
-	padding: 20px;
 	margin: 30px;
 	margin: 50px auto;
 
@@ -23,9 +22,7 @@ body {
     height: 140px;
     width: 500px;
     
-	padding: 20px;
-	margin: 30px;
-    margin: 50px auto;
+	
     
     color: #ff4f00;
 	font-size: 15px;
