@@ -1,46 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 <body>
+    <h1>The form element</h1>
+    <form action="/mouayad.alhariri@elev.ga.ntig.se" method="get" enctype="text/p">
+    <label for="email">Email:</label>
+    <input type="email" placeholder="E-post" name="email" id="email" required>
 
-<h1>The form element</h1>
-
-<form action="/mouayad.alhariri@elev.ga.ntig.se" method="get" enctype="text/p">
-  <label for="email">Email:</label>
-  <input type="email" placeholder="E-post" name="email" id="email" required>
-
-  <label for="psw">password:</label>
-  <input type="psw" placeholder="lösenord" name="psw" id="psw" required>  <input type="submit" value="Submit">
-
-  <div>
-      <lable for="psw-repeat">Repeat Password:</lable>
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-  </div>
+    <div>
+        <label for="psw">password:</label>
+    <input type="psw" placeholder="lösenord" name="psw" id="psw" required>
+    </div>
+    
+    <div>
+        <label for="psw-repeat">Repeat Password:</label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    </div>
 
 <div>
-    <labeb for="interest">Min Favoritintressen</labeb>
-    <textarea rows="5" cols="30" name="interest" id="interest">......</textarea>
+    <labeb for="interrest">Min favoritintressen</labeb>
+    <textarea rows="5" cols="30" name="interrest" id="interrest"></textarea>
 </div>
-  
-  <div>
-      <label class="switch">Jag vill gärna ta del av fin fina erbjudande:)
-          <input type="checkbox">
-          <span class="slider"></span>
-      </label>
-  </div>
-  <div>
-      <label for="gender">kön</label>
-      <select id="gender" name="gender">
-          <option value="kvinna">kvinna</option>
-          <option value="man">man</option>
-          <option value="hen">hen</option>
-          <option value="vill inte ange">osäker</option>
 
-      </select>
-  </div>
-  <hr>
-  <button type="submit" class="registerbtn">Register</button>
+    <div>
+        <label class="switch"> Jag vill gärna ta del av fin fina erbjudanden:)
+            <input type="checkbox">
+            <span class="slider"></span>
+        </label>
+    </div>
+
+    <div>
+        <label for="tid">Vilken datum registerar du</label>
+        <input type="date" id="tid" name="tid">
+    </div>
+    <div>
+        <label for="gender">kön</label>
+        <select id="gender" name="gender">
+            <option value="kvinna">kvinna</option>
+            <option value="man">man</option>
+            <option value="hen">hen</option>
+            <option value="jag vill inte ange">osäker</option>
+        </select>
+    </div>
+    <hr>
+    <button type="submit" class="registerbtn">Send form as mail</button>
+    <button type="reset" class="reset">Reset form</button>
 </form>
-
-
 </body>
 </html>
