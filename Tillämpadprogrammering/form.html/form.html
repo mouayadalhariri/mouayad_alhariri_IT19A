@@ -17,50 +17,71 @@
     <h1>The form element</h1>
 <hr>Fyll i dina uppgifter i formuläret</hr>
 
+<table style="width:100%">
+
     <form action="/mouayad.alhariri@elev.ga.ntig.se" method="get" enctype="text/p">
-    <label for="email">Email:</label>
-    <input type="email" placeholder="E-post" name="email" id="email" required>
+    <tr>
+     <th>   <label for="email">Email:</label></th>
+   <td> <input type="email" placeholder="E-post" name="email" id="email" required></td>
+    </tr>
 
     <div>
-        <label for="psw">password:</label>
-    <input type="psw" placeholder="lösenord" name="psw" id="psw" required>
-    </div>
+        <tr>
+           <th> <label for="psw">password:</label></th>
+    <td><input type="psw" placeholder="lösenord" name="psw" id="psw" required></td>
+        </tr>
+   
+</div>
     
     <div>
-        <label for="psw-repeat">Repeat Password:</label>
-        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+        <tr>
+
+      <th>  <label for="psw-repeat">Repeat Password:</label></th>
+       <td> <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required></td>
+        </tr>
     </div>
 
 <div>
-    <labeb for="interrest">Min favoritintressen</labeb>
-    <textarea rows="5" cols="30" name="interrest" id="interrest"></textarea>
+    <tr>
+        <th>  <labeb for="interrest">Min favoritintressen</labeb></th>
+    <td><textarea rows="5" cols="30" name="interrest" id="interrest"></textarea></td>
+    </tr>
+
 </div>
 
     <div>
-        <label class="switch"> Jag vill gärna ta del av fin fina erbjudanden:)
-            <input type="checkbox">
-            <span class="slider"></span>
+        <tr>
+     <th><label class="switch"> Jag vill gärna ta del av fin fina erbjudanden:)</th>
+           <td> <input type="checkbox">
+            <span class="slider"></span></td>
         </label>
+        </tr>
     </div>
 
     <div>
-        <label for="tid">Vilken datum registerar du</label>
-        <input type="date" id="tid" name="tid">
+        <tr>
+      <th>  <label for="tid">Vilken datum registerar du</label></th>
+        <td><input type="date" id="tid" name="tid"></td>
+    </tr>
     </div>
     <div>
-        <label for="gender">kön</label>
-        <select id="gender" name="gender">
+        <tr>
+       <th> <label for="gender">kön</label></th>
+      <td>  <select id="gender" name="gender">
             <option value="kvinna">kvinna</option>
             <option value="man">man</option>
             <option value="hen">hen</option>
-            <option value="jag vill inte ange">osäker</option>
+            <option value="jag vill inte ange">osäker</option></td>
+        </tr>
         </select>
     </div>
     <hr>
-    <button type="submit" class="registerbtn">Send form as mail</button>
-    <button type="reset" class="reset">Reset form</button>
+    <tr>
+   <th> <button type="submit" class="registerbtn">Send form as mail</button>
+    <button type="reset" class="reset">Reset form</button></th>
+</tr>
 </div section>
-
+</table>
  </body>
    
     <div id= footer>
