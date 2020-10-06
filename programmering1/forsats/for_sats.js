@@ -29,7 +29,7 @@ for (let i = 0; i<10; i++){
 let ämnen = ["Svenska", "Engelska" , "Programmering" , "Matematik" , "Idrott"]
 
 // skapa en lista med lektioner
-
+,
 
 p_klass.innerHTML = "Mina lektioner är <br/>"
 
