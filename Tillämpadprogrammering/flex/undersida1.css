@@ -1,7 +1,11 @@
+body{
+    background-image: url("background1.jpg");
+}
+
 header, nav, article, footer {
     border:1px solid black;
     text-align:center;
-    background:#f1e1cc;
+    color: cornsilk;
     margin:2px;
 }
 .wrapper{
@@ -19,16 +23,15 @@ li {
 li a {
     text-decoration: none;
     display:block;
-    background:darkgrey;
     text-align:center;
 }
 li a:hover {
-    background:grey;
     color:black;
 }
 a {
     color:#2a52be;
     padding:5px;
+}
     li {
         width:100%;
         display:block;
@@ -36,7 +39,6 @@ a {
     li a {
         text-decoration: none;
         display:block;
-        background:darkgrey;
         text-align:center;
     }
     li a:hover {
@@ -44,5 +46,5 @@ a {
         color:black;
     }
     a {
-        color:white;
         padding:5px;
+    }
