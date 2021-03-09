@@ -1,3 +1,4 @@
+//den här koden är för att 
 let knapp = document.querySelector("#knapp")
 
 let p_rak = document.getElementById("rak")
