@@ -2,12 +2,12 @@ console.log("Repetition V.10")
 
 // Skapa variablar
 let name = "Mouayad"
-let Ålder = 18
+let ålder = 18
 
 console.log(`Hej ${name}, du är ${ålder} år gammal`)
 
 // if-sats 
-if (ålder > 18){
+if (ålder >= 18){
     console.log("Du är vuxen")
 } else {
     console.log("du är barn");
